@@ -37,7 +37,7 @@ OWNER_USER_ID = 1232243863423418432  # <- CHANGE THIS NUMBER!
 BANNED_PHRASES = [
     "banned",
     "ban",
-    "dm",
+    "Blocklist",
     "id ban",
     "id get banned",
     "id banned"
