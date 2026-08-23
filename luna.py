@@ -143,7 +143,7 @@ async def send_subscribe_embed(channel, channel_handle="@FIXCORPORATION"):
     )
     embed.add_field(name="📺 Channel Link", value=f"https://youtube.com/{channel_handle}", inline=False)
     embed.add_field(name="🎁 What You Get", value="• Free Aimbot panel\n• 100% Safe\n• Trusted Panel Seller", inline=False)
-    embed.add_field(name="📊 Current Stats", value="402 subscribers • 19 videos", inline=True)
+    embed.add_field(name="📊 Current Stats", value="405 subscribers • 19 videos", inline=True)
     embed.set_footer(text="Subscribe, like, and stay tuned for more!")
     await channel.send(embed=embed)
 
