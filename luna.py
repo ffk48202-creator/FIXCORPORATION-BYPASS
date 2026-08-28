@@ -1,4 +1,4 @@
-import discord
+pimport discord
 from discord.ext import commands
 import random
 import asyncio
@@ -135,7 +135,7 @@ async def process_youtube_channel(url):
             }
     return None
 
-async def send_subscribe_embed(channel, channel_handle="@FIXCORPORATION"):
+async def send_subscribe_embed(channel, channel_handle="@FIXCORAPORATION"):
     embed = discord.Embed(
         title="🎯 Don't Forget to Subscribe!",
         description=f"Check out **{channel_handle}** on YouTube!",
